@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cosmos-cert-extractor"
+version = "0.0.1"
+authors = [
+  { name="Pich02", email="pich.2@hotmail.fr" },
+]
+description = "Cosmos certificate extractor"
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = {file = "LICENSE.txt"}
+
+[project.urls]
+Homepage = "https://github.com/pich02/cosmos-cert-extractor"
+Issues = "https://github.com/pich02/cosmos-cert-extractor/issues"
